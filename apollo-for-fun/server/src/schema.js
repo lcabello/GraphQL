@@ -8,6 +8,8 @@ const typeDefs = gql`
     thumbnail: String
     length: Int
     modulesCount: Int
+    description: String
+    numberOfViews: Int
   }
 
   type Author {
